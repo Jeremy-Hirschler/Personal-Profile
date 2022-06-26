@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    background-color: lightblue;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+
+.profile img{
+    height: 175px;
+    
+}
+
+.links {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.links img{
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 70%;
+    
+}
+
+.links a {
+    font-size: 1.4em;
+    padding-right: 50px;
+}
+
+.flex-wrapper {
+    display: flex;
+    background-color: rgb(236, 233, 233);
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+.about {
+    flex: 2;
+    margin-left: 10px;
+    border-left: 2px solid black;
+    height: 270px;
+    padding-left: 5px;
+}
+
+.profile {
+    flex: 1;
+    margin-left: 10px;
+    height: 270px;
+}
+
+.profile p {
+    padding-top: 10px;
+}
+
+.tech {
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 5px;
+    border-left: 2px solid black;
+    height: 270px;
+}
+
+.about h2, .tech h2 {
+    padding-bottom: 25px;
+    text-decoration: underline;
+}
+
+table, th, td {
+    background-color: lightcyan;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-top: 24px;
+}
+
+
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hobbies {
+    font-size: 1.2em;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.hobbies ul{
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.hobbies ul li {
+    padding-top: 5px;
+}
+
+.hobbies h3, .contact h3 {
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(236, 233, 233);
+    margin: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+
+.contact {
+    font-size: 1.2em;
+    margin-left: 55px;
+    margin-top: 9px;
+    width: 50%;
+}
+
+label, form p {
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+    margin-top: 10px;
+}
+
